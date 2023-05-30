@@ -32,7 +32,7 @@ const server = app.listen(PORT, () => {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://proyecto-social-completo.vercel.app/",
+    origin: "https://proyecto-social-completo.vercel.app",
     credentials: true,
   },
 });
